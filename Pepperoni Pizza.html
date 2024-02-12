@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="icon" type="image/png" href="pizza.png">
+
+</head>
+
+<body style="text-align:center;">
+    <fieldset style="margin-left: 500px; margin-right: 500px; margin-top:5px; background-color: burlywood;">
+
+        <h1 style="color:orange; background-color:black;margin:30px; padding:20px;">Pizza Order Form</h1>
+
+        <label for="numberOfPizzas">
+            <h2>Number of Pizzas:</h2>
+        </label>
+        <input type="text" id="numberOfPizzas" name="numberOfPizzas" required placeholder="eg. 1,2">
+
+
+        <label for="PizzaSize">
+            <h2>Size (Number of Slices):</h2>
+        </label>
+        <input type="text" id="PizzaSize" name="PizzaSize">
+
+
+
+        <label>
+            <h2>Shape:</h2>
+        </label>
+        <input type="radio" name="PizzaShape" value="round" checked><label>Round</label>
+        <input type="radio" name="PizzaShape" value="square"> <label>Square</label>
+
+
+
+        <label for="toppings">
+            <h2>Toppings:</h2>
+        </label>
+        <input type="checkbox" name="Toppings" value="Cheese">
+        <label>Cheese</label>
+        <input type="checkbox" name="Toppings" value="Onion & Tomato">
+        <label>Onion & Tomato</label>
+        <input type="checkbox" name="Toppings" value="Olives">
+        <label>Olives</label>
+        <input type="checkbox" name="Toppings" value="Green Peppers">
+        <label>Green Peppers</label>
+
+
+
+        <label>
+            <h2>Crust Type:</h2>
+        </label>
+        <input type="checkbox" name="Toppings" value="Deep Dish">
+        <label>Deep Dish</label>
+        <input type="checkbox" name="Toppings" value="Thin Crust">
+        <label>Thin Crust</label>
+        <input type="checkbox" name="Toppings" value="Others">
+        <label>Others</label>
+
+
+
+
+
+
+        <label>
+            <h2>Delivery Options:</h2>
+        </label>
+        <input type="checkbox" name="Delivery Option" value="takeOut"> <label>Take Out</label>
+        <input type="checkbox" name="Delivery Option" value="delivery"> <label> Delivery</label>
+        <input type="checkbox" name="Delivery Option" value="Eat-In"> <label>Eat-In</label>
+
+        <br><br>
+
+        <div>
+            <a href="Information Page.html">
+                <button style="padding:5px;">Place Order</button>
+            </a>
+        </div><br>
+        <div>
+            <a href="Pizza World.html">
+                <button style="padding:5px;">Go Back</button>
+            </a>
+        </div>
+    </fieldset>
+
+</body>
+
+</html>
